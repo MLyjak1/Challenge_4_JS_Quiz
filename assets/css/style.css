@@ -1,0 +1,63 @@
+#heading {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 45%;
+    border-style: solid;
+    border-color: black;
+}
+
+h1 {
+    border-style: solid;
+    border-color: black;
+}
+
+#timer {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    /* padding-left: 76%; */
+    border-style: solid;
+    border-color: black;
+    margin-left: 60%;
+}
+
+#primary {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    border-style: solid;
+    border-color: black;
+}
+
+#score-list {
+    display: flex;
+    border-style: solid;
+    border-color: black;
+    flex-direction: column;
+    padding-right: 46%;
+}
+
+h3 {
+    text-decoration-line: underline;
+    color: red;
+    margin:0%;
+}
+
+h2{
+    border-style: solid;
+    border-color: black;
+    
+}
+
+#answers{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+#answers button{
+    margin: 10%;
+}
