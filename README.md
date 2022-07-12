@@ -78,3 +78,4 @@ to be Added
     * Added Prompts for intitials
     * Checked Answer results/scoring and records - Passed
 
+**0.4 - Added Local Storage and ScoreList Sidebar**

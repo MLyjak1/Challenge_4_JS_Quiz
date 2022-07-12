@@ -5,6 +5,7 @@ var timeLeft = 30;
 // var questionARR = ["What symbol do you use at the end of JavaScript commands?"];
 // var answerARR = [".", "/", "$", ";"];
 // var corrAnsArr = [3]
+// var key = 1;
 var q = 0;
 var score = 0;
 var questions = [{
@@ -59,8 +60,8 @@ function gameOver() {
     var initials = window.prompt("Enter Initials");
     var scoreObject = {initials, score};
     console.log(scoreObject);
-    var highScores = [];
-    highScores.push(scoreObject);
+    localStorage.setItem(initials, JSON.stringify(scoreObject));
+    displayScores();
 }
 
 
@@ -101,7 +102,20 @@ function evalAnswer(){
             askQuestion();                           //Ask next question
 }
 
+function displayScores(){
+    var scoreList = document.getElementById("storageList");
+    for(var i=0; i<localStorage.length; i++){
+        var indvScores = document.createElement("li");
+        indvScores.textContent = localStorage.getItem(localStorage.key(i));
+        scoreList.append(indvScores);
+    }
+    
+    
+    
+   
+}
 
+// displayScores();
 countdownClock();
 askQuestion();
 
