@@ -61,6 +61,7 @@ to be Added
     * Tested at various screen widths
 
 **0.2 - Initial Javascript Responsiveness and Timer Countdown**
+    
     * Initialized timer countdown function in js file
     * Added Game Over alert
     * Tested timer and alert - Passed
@@ -69,3 +70,11 @@ to be Added
     * Added Button Functionality to JS file
     * Tested to ensure Button Click would display window - Passed
     
+**0.3 - Initial Question/Answer Responsiveness Test**
+    
+    * Added Questions, Answers and correctAnswers to object.
+    * Created test end.
+    * Added Scoring
+    * Added Prompts for intitials
+    * Checked Answer results/scoring and records - Passed
+
