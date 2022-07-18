@@ -79,3 +79,5 @@ to be Added
     * Checked Answer results/scoring and records - Passed
 
 **0.4 - Added Local Storage and ScoreList Sidebar**
+    * Tested Local Storage - PASSED
+    * Cleaned up Code for submission

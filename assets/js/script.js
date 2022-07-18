@@ -1,11 +1,5 @@
 var countDown = document.querySelector("#countdown");
 var timeLeft = 30;
-// var questionEl = document.querySelector("#question");
-// var answerBtn = document.querySelector("#answers")
-// var questionARR = ["What symbol do you use at the end of JavaScript commands?"];
-// var answerARR = [".", "/", "$", ";"];
-// var corrAnsArr = [3]
-// var key = 1;
 var q = 0;
 var score = 0;
 var questions = [{
