@@ -11,7 +11,7 @@ This Project is designed to test a user's knowledge of JavaScript and record the
 
 ## Project Brief:
 
-A Quiz that asks questions about JavaScript and stores their scores
+A Quiz that asks questions about JavaScript and stores their scores in local storage
 
 ## Technologies used:
 
@@ -23,19 +23,20 @@ A Quiz that asks questions about JavaScript and stores their scores
 
 ## Description:
 
-<!-- https://mlyjak1.github.io/Challenge_2/ -->
+https://mlyjak1.github.io/Challenge_4_JS_Quiz/
 
-To be Added
+![](assets/images/JS%20Quiz%20Screenshot.png)
 
-<!-- ![](assets/images/Challenge%202%20Screenshot.png) -->
 
 ## Instructions for Future Developers:
 
-To Be Added
+N/A
 
 ## Known Bugs/Future Additions:
 
-to be Added
+Timer issues after end of test.
+Removal of unnessecary characters of score list
+Ordering High Scores by value.
 
 ## License Information:
 
